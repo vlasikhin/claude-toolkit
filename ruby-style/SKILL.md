@@ -1,6 +1,10 @@
 ---
 name: ruby-style
-description: Ruby code style conventions and idioms. Use when writing, reviewing, or refactoring any Ruby code. Covers naming, formatting, structure, and idiomatic patterns.
+description: Ruby code style conventions and idioms. Use when writing, reviewing, or refactoring any Ruby code. Covers naming, formatting, structure, and idiomatic patterns. Use when user asks to "review Ruby code", "check Ruby style", "refactor Ruby", or "write idiomatic Ruby".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Ruby Style

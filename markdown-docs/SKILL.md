@@ -1,6 +1,10 @@
 ---
 name: markdown-docs
-description: README and project documentation structure. Use when writing README.md, CHANGELOG, CONTRIBUTING, or any project-level documentation.
+description: README and project documentation structure. Use when writing README.md, CHANGELOG, CONTRIBUTING, or any project-level documentation. Use when user asks to "write a README", "create project docs", "document this project", or "add a CHANGELOG".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Markdown Docs

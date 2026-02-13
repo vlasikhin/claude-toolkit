@@ -1,6 +1,10 @@
 ---
 name: go-style
-description: Go code style, idioms, and patterns. Use when writing, reviewing, or refactoring Go code. Covers naming, error handling, concurrency, interfaces, project structure, and testing.
+description: Go code style, idioms, and patterns. Use when writing, reviewing, or refactoring Go code. Covers naming, error handling, concurrency, interfaces, project structure, and testing. Use when user asks to "write Go code", "review Go", "Go best practices", or "Go project structure".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Go Style

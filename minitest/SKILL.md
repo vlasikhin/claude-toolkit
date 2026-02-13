@@ -1,6 +1,10 @@
 ---
 name: minitest
-description: Minitest testing conventions and patterns. Use when writing or reviewing Minitest tests in Ruby projects. Covers both Minitest::Test and Minitest::Spec styles.
+description: Minitest testing conventions and patterns. Use when writing or reviewing Minitest tests in Ruby projects. Covers both Minitest::Test and Minitest::Spec styles. Use when user asks to "write Minitest tests", "add test cases", "test with Minitest", or "review test file".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Minitest Conventions

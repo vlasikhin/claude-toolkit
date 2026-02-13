@@ -1,6 +1,10 @@
 ---
 name: rails-conventions
-description: Rails framework conventions and patterns. Use when working in a Rails project — writing controllers, models, migrations, services, jobs, or any Rails-specific code.
+description: Rails framework conventions and patterns. Use when working in a Rails project — writing controllers, models, migrations, services, jobs, or any Rails-specific code. Use when user mentions "Rails controller", "migration", "service object", "Rails model", or asks to "follow Rails conventions".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Rails Conventions

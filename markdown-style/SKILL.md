@@ -1,6 +1,10 @@
 ---
 name: markdown-style
-description: Markdown formatting conventions. Use when writing or editing any markdown files — notes, docs, articles, comments.
+description: Markdown formatting conventions. Use when writing or editing any markdown files — notes, docs, articles, comments. Use when user asks to "format markdown", "fix markdown style", "write markdown", or "review .md file".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Markdown Style

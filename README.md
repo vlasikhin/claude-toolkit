@@ -42,4 +42,10 @@ cp -r _template my-new-skill
 cd ~/.claude-skills && git pull
 ```
 
-Symlinks point to the repo, so pulling is enough.
+Symlinks point to the repo, so pulling updates existing skills automatically.
+
+If new skills were added, run install to create their symlinks:
+
+```bash
+./install.sh
+```

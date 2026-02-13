@@ -1,6 +1,10 @@
 ---
 name: rspec
-description: RSpec testing conventions and patterns. Use when writing or reviewing RSpec tests in any Ruby project (Rails, plain Ruby, gems).
+description: RSpec testing conventions and patterns. Use when writing or reviewing RSpec tests in any Ruby project (Rails, plain Ruby, gems). Use when user asks to "write RSpec tests", "add specs", "test this with RSpec", or "review spec file".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # RSpec Conventions

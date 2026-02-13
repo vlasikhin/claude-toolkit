@@ -1,6 +1,10 @@
 ---
 name: skill-name
-description: Clear description of what this skill does and when to use it. Include trigger phrases and context.
+description: What this skill does. Use when [specific context]. Use when user asks to "[trigger phrase 1]", "[trigger phrase 2]", or "[trigger phrase 3]".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Skill Name

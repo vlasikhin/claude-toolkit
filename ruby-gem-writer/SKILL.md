@@ -1,6 +1,10 @@
 ---
 name: ruby-gem-writer
-description: Patterns for writing Ruby gems following Andrew Kane's battle-tested approach (100+ gems, 374M+ downloads). Use when creating new gems, designing gem APIs, or structuring Ruby libraries.
+description: Patterns for writing Ruby gems following Andrew Kane's battle-tested approach (100+ gems, 374M+ downloads). Use when creating new gems, designing gem APIs, or structuring Ruby libraries. Use when user asks to "create a gem", "write a Ruby library", "structure a gem", or "gem best practices".
+license: MIT
+metadata:
+  author: vlasikhin
+  version: 1.0.0
 ---
 
 # Ruby Gem Writer
