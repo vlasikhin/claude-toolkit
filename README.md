@@ -111,3 +111,9 @@ If new items were added, run install to create their symlinks:
 ```bash
 ./install.sh
 ```
+
+After a repo restructure or rename, use `--update` to clean old symlinks and recreate:
+
+```bash
+./install.sh --update
+```

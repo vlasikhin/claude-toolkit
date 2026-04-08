@@ -1,10 +1,35 @@
 #!/bin/bash
 # Links skills and agents from this repo to ~/.claude/
-# Safe: skips existing entries, ignores _template and non-skill dirs.
+# Usage:
+#   ./install.sh            # create new symlinks, skip existing
+#   ./install.sh --update   # remove old symlinks from this repo, recreate all
 
 SKILL_DIR="$HOME/.claude/skills"
 AGENT_DIR="$HOME/.claude/agents"
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
+UPDATE=false
+
+[[ "$1" == "--update" ]] && UPDATE=true
+
+# --- Clean old symlinks on --update ---
+if $UPDATE; then
+    echo "Cleaning old symlinks..."
+    # Remove symlinks pointing anywhere inside this repo (handles both old and new paths)
+    for link in "$SKILL_DIR"/* "$AGENT_DIR"/*; do
+        [ -L "$link" ] || continue
+        target=$(readlink "$link")
+        case "$target" in
+            "$REPO_DIR"/*|*claude-skills*|*claude-toolkit*)
+                rm "$link"
+                echo "  ✗ removed: $(basename "$link")"
+                ;;
+        esac
+    done
+    # Also remove broken symlinks (from renamed/moved repo)
+    find "$SKILL_DIR" -maxdepth 1 -xtype l -delete 2>/dev/null
+    find "$AGENT_DIR" -maxdepth 1 -xtype l -delete 2>/dev/null
+    echo ""
+fi
 
 # --- Skills ---
 mkdir -p "$SKILL_DIR"
